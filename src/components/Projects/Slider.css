@@ -1,0 +1,174 @@
+/*Slider*/
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.left-arrow {
+  font-size: 6rem;
+  color:rgb(38, 38, 38);
+  padding-left: 3vw;
+  z-index: 50;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  width: 80%;
+  height: 70%;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.slide.active:hover .centered {
+  visibility: visible;
+  opacity: 1;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border: solid 5px black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.623);
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.centerpara {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Right{
+  padding-right: 5vw;
+}
+
+.Left{
+  padding-left: 5vw;
+}
+
+.whitee{
+  color: white;
+}
+
+.size {
+  font-size: 17vw;
+}
+  
+.right-arrow {
+    font-size: 6rem;
+    color:rgb(38, 38, 38);
+    padding-right: 3vw;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+  
+@media screen and (max-width: 1420px){
+
+}
+
+@media screen and (max-width: 1024px){
+  .slider{
+    min-height: 40vh;
+  }
+
+  .center{
+    min-height: 40vh;
+  }
+}
+  
+@media screen and (max-width: 960px){
+  
+}
+
+@media screen and (max-width: 880px){
+  
+
+}
+  
+@media screen and (max-width: 768px){
+    #eHead{
+      font-size: 2rem;
+    }
+
+    .slider{
+      min-height: 25vh;  
+    }
+
+    .center{
+      min-height: 25vh;
+    }
+
+    .left-arrow{
+      font-size: 4rem;
+    }
+    
+    
+    .right-arrow{
+      font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 660px){
+  
+  
+}
+
+@media screen and (max-width: 480px){
+  .slider{
+    min-height: 10vh;  
+  }
+
+  .center{
+    min-height: 10vh;
+  }
+
+  .left-arrow{
+    font-size: 2rem;
+  }
+  
+  
+  .right-arrow{
+    font-size: 2rem;
+  }
+}
+
+  
+  
+  
