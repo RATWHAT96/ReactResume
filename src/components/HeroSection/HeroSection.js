@@ -9,7 +9,7 @@ function HeroSection() {
             <video src="/videos/video-3.mp4" autoPlay loop muted playsInline/>
             <h1>Rahul Ratwatte</h1>
             <p>Software Engineer</p>
-            <a href="#EandE">
+            <a href="#projects">
                 <div class="scroll-down-white"></div>
             </a>   
         </div>

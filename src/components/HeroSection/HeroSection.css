@@ -81,10 +81,6 @@ video{
         font-size: 25px;
     }
 
-    .hero-container{
-        height: 89vh;
-    }
-
 }
 
 @media screen and (max-width: 480px) {

@@ -12,7 +12,7 @@ function App() {
 	return ( 
 		<>
 			<div><HeroSection /></div>
-			<div id="EandE">
+			<div id="projects">
 				<div className="EaEHeading">
 					<h1 class="eHead">Projects</h1>
 				</div>
