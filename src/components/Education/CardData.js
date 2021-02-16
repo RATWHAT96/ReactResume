@@ -21,13 +21,13 @@ export const CardData = [
       image:
         './media/Testing.png',
       type: 'four',
-      name: 'Unit Testin',
+      name: 'Unit Testing',
     },
     {
       image:
         './media/UserStory.png',
       type: 'four',
-      name: 'User Stroy Generation',
+      name: 'User Story Generation',
     },
     {
       image:'./media/react.png',
@@ -55,19 +55,14 @@ export const CardData = [
       name: 'Express.js',
     },
     {
-      image:'./media/django.png',
-      type: 'two',
-      name: 'Django Framework',
-    },
-    {
         image:'./media/c-sharp.png',
         type: 'one',
         name: 'C#',
     },
     {
-        image:'./media/java.png',
+        image:'./media/typescript.png',
         type: 'one',
-        name: 'Java',
+        name: 'TypeScript',
     }, 
     {
       image:'./media/python.png',

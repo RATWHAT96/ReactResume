@@ -3,7 +3,7 @@ import './App.css';
 import HeroSection from './components/HeroSection/HeroSection.js';
 import Form from './components/Form/Form.js';
 import ImageSlider from './components/Projects/ImageSlider.js';
-import { SliderData } from './components/Projects/SliderData.js';
+import { SliderDataOne, SliderDataTwo, SliderDataThree  } from './components/Projects/SliderData.js';
 import PostOne from './components/Education/PostsOne';
 import Footer from './components/Footer';
 
@@ -16,9 +16,9 @@ function App() {
 				<div className="EaEHeading">
 					<h1 class="eHead">Projects</h1>
 				</div>
-				<ImageSlider slides={SliderData} />
-				<ImageSlider slides={SliderData} />
-				<ImageSlider slides={SliderData} />
+				<ImageSlider slides={SliderDataOne} />
+				<ImageSlider slides={SliderDataTwo} />
+				<ImageSlider slides={SliderDataThree} />
 			</div>
 			<div className="proj">
 				<div className="EaEHeading">

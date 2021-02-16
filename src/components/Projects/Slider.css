@@ -56,12 +56,14 @@
   top: 50%;
   left: 50%;
   width: 100%;
-  height: auto;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.623);
   visibility: hidden;
   opacity: 0;
   transform: translate(-50%, -50%);
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
 }

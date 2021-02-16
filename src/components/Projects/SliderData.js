@@ -1,20 +1,81 @@
-export const SliderData = [
+export const SliderDataOne = [
+  {
+    image:'./media/projects/v2.png',
+    linkOne: 'https://github.com/RATWHAT96/ReactTypeScriptAlgorithmVisualiser',
+    linkTwo: 'https://ratwhat96.github.io/ReactTypeScriptAlgorithmVisualiser/',
+  },
+  {
+    image:'./media/projects/visualiser.jpg',
+      linkOne: 'https://github.com/RATWHAT96/ReactTypeScriptAlgorithmVisualiser',
+      linkTwo: 'https://ratwhat96.github.io/ReactTypeScriptAlgorithmVisualiser/',
+  },
+  {
+    image:'./media/projects/v1.png',
+    linkOne: 'https://github.com/RATWHAT96/ReactTypeScriptAlgorithmVisualiser',
+    linkTwo: 'https://ratwhat96.github.io/ReactTypeScriptAlgorithmVisualiser/',
+  },{
+    image:'./media/projects/v3.png',
+    linkOne: 'https://github.com/RATWHAT96/ReactTypeScriptAlgorithmVisualiser',
+    linkTwo: 'https://ratwhat96.github.io/ReactTypeScriptAlgorithmVisualiser/',
+  }
+];
+
+export const SliderDataTwo = [
   {
     image:
-      'https://images.unsplash.com/photo-1546768292-fb12f6c92568?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-    linkOne: 'https://fontawesome.com/icons/external-link-square-alt?style=solid',
-    linkTwo: 'https://fontawesome.com/icons/external-link-square-alt?style=solid',
+      './media/projects/t3.png',
+      linkOne: 'https://github.com/RATWHAT96/Personal-Dashboard-React.js-Node.js',
+    linkTwo: 'https://rahulratwattedashboard.herokuapp.com/',
   },
   {
     image:
-      'https://images.unsplash.com/photo-1501446529957-6226bd447c46?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1489&q=80',
-      linkOne: 'https://fontawesome.com/icons/external-link-square-alt?style=solid',
-      linkTwo: 'https://fontawesome.com/icons/external-link-square-alt?style=solid',
+      './media/projects/personalDashboard.jpg',
+      linkOne: 'https://github.com/RATWHAT96/Personal-Dashboard-React.js-Node.js',
+    linkTwo: 'https://rahulratwattedashboard.herokuapp.com/',
   },
   {
     image:
-      'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80',
-      linkOne: 'https://fontawesome.com/icons/external-link-square-alt?style=solid',
-      linkTwo: 'https://fontawesome.com/icons/external-link-square-alt?style=solid',
+      './media/projects/t1.png',
+      linkOne: 'https://github.com/RATWHAT96/Personal-Dashboard-React.js-Node.js',
+    linkTwo: 'https://rahulratwattedashboard.herokuapp.com/',
   },
+  {
+    image:
+      './media/projects/t2.png',
+      linkOne: 'https://github.com/RATWHAT96/Personal-Dashboard-React.js-Node.js',
+    linkTwo: 'https://rahulratwattedashboard.herokuapp.com/',
+  },
+  {
+    image:
+      './media/projects/t4.png',
+      linkOne: 'https://github.com/RATWHAT96/Personal-Dashboard-React.js-Node.js',
+    linkTwo: 'https://rahulratwattedashboard.herokuapp.com/',
+  }
+];
+
+export const SliderDataThree = [
+  {
+    image:
+    './media/projects/d3.png',
+    linkOne: 'https://github.com/RATWHAT96/AssessmentToolForCognitiveDysfunction',
+    linkTwo: 'https://www.youtube.com/watch?v=RFKDB-UQtC8&t=57s',
+  },
+  {
+    image:
+      './media/projects/diagnostic tool.jpg',
+      linkOne: 'https://github.com/RATWHAT96/AssessmentToolForCognitiveDysfunction',
+    linkTwo: 'https://www.youtube.com/watch?v=RFKDB-UQtC8&t=57s',
+  },
+  {
+    image:
+      './media/projects/d1.png',
+      linkOne: 'https://github.com/RATWHAT96/AssessmentToolForCognitiveDysfunction',
+    linkTwo: 'https://www.youtube.com/watch?v=RFKDB-UQtC8&t=57s',
+  },
+  {
+    image:
+      './media/projects/d2.png',
+      linkOne: 'https://github.com/RATWHAT96/AssessmentToolForCognitiveDysfunction',
+    linkTwo: 'https://www.youtube.com/watch?v=RFKDB-UQtC8&t=57s',
+  }
 ];
