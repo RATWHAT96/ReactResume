@@ -1,6 +1,6 @@
 export const CardData = [
     {
-      image:
+      image: 
         './media/agile-iteration.png',
       type: 'four',
       name: 'Agile Development',
